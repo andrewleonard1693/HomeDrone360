@@ -39,16 +39,31 @@ ul.social-buttons {
         background-color: $primary;
       }
       #fb-icon {
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
         &:hover {
           color: $facebook;
         }
       }
       #youtube-icon {
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
         &:hover {
           color: $youtube;
         }
       }
       #instagram-icon {
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
         &:hover {
           color: $instagram;
         }
