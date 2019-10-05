@@ -175,16 +175,18 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/portfolio/Drone_Bottom.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  position: relative;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
 }
 
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -201,6 +203,12 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+header.masthead .masthead-video {
+  position: absolute;
+  background-image: radial-gradient(circle at 36% 48%, #000000, rgba(11, 39, 65, 0.32) 87%, rgba(0, 0, 0, 0));
+  z-index: 0;
 }
 
 .logo-container {
@@ -755,4 +763,16 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #5e81ac;
+}
+
+ul.social-buttons li a #fb-icon:hover {
+  color: #3b5998b3;
+}
+
+ul.social-buttons li a #youtube-icon:hover {
+  color: #ff0000b3;
+}
+
+ul.social-buttons li a #instagram-icon:hover {
+  color: #c13584b3;
 }

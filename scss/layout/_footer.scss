@@ -38,6 +38,21 @@ ul.social-buttons {
       &:hover {
         background-color: $primary;
       }
+      #fb-icon {
+        &:hover {
+          color: $facebook;
+        }
+      }
+      #youtube-icon {
+        &:hover {
+          color: $youtube;
+        }
+      }
+      #instagram-icon {
+        &:hover {
+          color: $instagram;
+        }
+      }
     }
   }
 }
