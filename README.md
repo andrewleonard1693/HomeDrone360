@@ -20,24 +20,28 @@ The following software should be installed on your machine and able to run in yo
   - This will pull dependencies out of the node_modules directory and minify/optimize our js and css files for faster loading times
   - For more information on what each gulp task does, check out the README in the parent bootstrap starter template [here](https://github.com/BlackrockDigital/startbootstrap-agency)
 
+### Useful Commands
+
+- `npm start`
+  - Uses gulp to start a live server that watches for any file changes and applies updates in real time
 ## Directory Structure
 
 #### vendor
 
-Contains css/js dependencies
+- Contains css/js dependencies
 
 #### scss
 
-Contains SASS files that gulp compiles down to vanilla css when the `gulp` command is run
+- Contains SASS files that gulp compiles down to vanilla css when the `gulp` command is run
 
 #### js
 
-Contains our js files (and their minified versions) for client side logic
+- Contains our js files (and their minified versions) for client side logic
 
 #### css 
 
-Contains our css files (and their minified versions)
+- Contains our css files (and their minified versions)
 
 #### img
 
-Contains images used on the client side
+- Contains images used on the client side
