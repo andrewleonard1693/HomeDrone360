@@ -181,9 +181,12 @@ header.masthead {
   margin: 0;
 }
 
+header.masthead .container {
+  height: 100%;
+}
+
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  top: 50%;
   position: relative;
 }
 
@@ -221,10 +224,6 @@ header.masthead .masthead-video {
 }
 
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
