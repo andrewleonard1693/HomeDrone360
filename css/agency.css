@@ -209,7 +209,12 @@ header.masthead .intro-text .intro-heading {
 header.masthead .masthead-video {
   position: absolute;
   background-image: radial-gradient(circle at 36% 48%, #000000, rgba(11, 39, 65, 0.32) 87%, rgba(0, 0, 0, 0));
+  width: 100%;
   z-index: 0;
+}
+
+header.masthead .masthead-video #myVideo {
+  width: 100%;
 }
 
 .logo-container {
