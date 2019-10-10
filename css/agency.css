@@ -790,7 +790,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #5e81ac;
 }
 
-ul.social-buttons li a #fb-icon {
+ul.social-buttons li a.fb-icon {
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -798,11 +798,11 @@ ul.social-buttons li a #fb-icon {
   -o-transition: all 0.2s;
 }
 
-ul.social-buttons li a #fb-icon:hover {
+ul.social-buttons li a.fb-icon:hover {
   color: #3b5998b3;
 }
 
-ul.social-buttons li a #youtube-icon {
+ul.social-buttons li a.youtube-icon {
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -810,11 +810,11 @@ ul.social-buttons li a #youtube-icon {
   -o-transition: all 0.2s;
 }
 
-ul.social-buttons li a #youtube-icon:hover {
+ul.social-buttons li a.youtube-icon:hover {
   color: #ff0000b3;
 }
 
-ul.social-buttons li a #instagram-icon {
+ul.social-buttons li a.instagram-icon {
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -822,6 +822,6 @@ ul.social-buttons li a #instagram-icon {
   -o-transition: all 0.2s;
 }
 
-ul.social-buttons li a #instagram-icon:hover {
+ul.social-buttons li a.instagram-icon:hover {
   color: #c13584b3;
 }
