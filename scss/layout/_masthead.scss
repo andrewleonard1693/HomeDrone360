@@ -3,6 +3,8 @@ header.masthead {
   text-align: center;
   color: white;
   position: relative;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $sectionSubheadingGrey;
 
   // height: 100vh;
   // min-height: 25rem;
@@ -85,11 +87,15 @@ header.masthead {
 }
 @media (max-width: 768px) {
   header.masthead {
-    background-image: url('../img/portfolio/Drone_Bottom.jpg');
+    // background-image: url('../img/camera-drone-flight.jpg');
+    background-image: url('../img/aircraft-airplane-art.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    .intro-text {
+      padding-bottom: 3em;
+    }
   }
   video.fill-width {
     display: none;
