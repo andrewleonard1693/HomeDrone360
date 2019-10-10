@@ -255,6 +255,19 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+@media (max-width: 768px) {
+  header.masthead {
+    background-image: url("../img/portfolio/Drone_Bottom.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  video.fill-width {
+    display: none;
+  }
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;

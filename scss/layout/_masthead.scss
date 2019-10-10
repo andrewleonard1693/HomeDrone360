@@ -9,8 +9,8 @@ header.masthead {
   // width: 100%;
   // overflow: hidden;
   // margin: 0;
-  // background-image: url('../img/portfolio/Drone_Bottom.jpg');
   // background-image: url('../img/header-bg.jpg');
+  // background-image: url('../img/portfolio/Drone_Bottom.jpg');
   // background-repeat: no-repeat;
   // background-attachment: scroll;
   // background-position: center center;
@@ -46,18 +46,6 @@ header.masthead {
       @include heading-font;
     }
   }
-  // .masthead-video {
-  //   position: absolute;
-  //   width: 100%;
-  //   #myVideo {
-  //     width: 100%;
-  //   }
-  //   // min-width: 100%;
-  //   // min-height: 100%;
-  //   // width: auto;
-  //   // height: auto;
-  //   z-index: 0;
-  // }
 }
 .logo-container {
   width: 75px;
@@ -93,5 +81,17 @@ header.masthead {
 @media (min-width: 1024px) {
   video.fill-width {
     width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  header.masthead {
+    background-image: url('../img/portfolio/Drone_Bottom.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  video.fill-width {
+    display: none;
   }
 }
