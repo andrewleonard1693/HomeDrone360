@@ -146,6 +146,12 @@ img::-moz-selection {
   color: #3b4252;
 }
 
+@media (min-width: 1200px) {
+  .navbar .container {
+    max-width: 1600px;
+  }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     transition: padding-top 0.3s, padding-bottom 0.3s;

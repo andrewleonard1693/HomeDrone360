@@ -38,6 +38,13 @@
     }
   }
 }
+@media (min-width: 1200px) {
+  .navbar {
+    .container {
+      max-width: 1600px;
+    }
+  }
+}
 @media (min-width: 992px) {
   #mainNav {
     // padding-top: 25px;
