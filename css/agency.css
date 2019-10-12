@@ -265,6 +265,7 @@ header.masthead .intro-text .intro-heading {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    margin-top: 101px;
   }
   header.masthead .intro-text {
     padding-bottom: 3em;

@@ -93,6 +93,7 @@ header.masthead {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    margin-top: 101px; // Sets the top margin to the size of the navbar so we see the whole image
     .intro-text {
       padding-bottom: 3em;
     }
