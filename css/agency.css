@@ -289,6 +289,18 @@ header.masthead .intro-text .intro-heading {
   color: #3b4252;
 }
 
+#portfolio {
+  background-color: #2e3440 !important;
+}
+
+#portfolio .section-heading {
+  color: white;
+}
+
+#portfolio .section-subheading {
+  color: white !important;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
