@@ -660,6 +660,15 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.pricing {
+  background-color: #2e3440 !important;
+}
+
+.pricing .section-heading,
+.pricing .section-subheading {
+  color: white !important;
+}
+
 .pricing ul li {
   margin-bottom: 1rem;
 }

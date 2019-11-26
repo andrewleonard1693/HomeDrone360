@@ -18,6 +18,11 @@
   }
 }
 .pricing {
+  background-color: #2e3440 !important;
+  .section-heading,
+  .section-subheading {
+    color: white !important;
+  }
   ul li {
     margin-bottom: 1rem;
   }
