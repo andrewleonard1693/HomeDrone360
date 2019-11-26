@@ -21,8 +21,16 @@ a:hover {
   color: #49688e;
 }
 
-.text-primary {
-  color: #5e81ac !important;
+.text-primary#real-estate-icon {
+  color: #b48ead !important;
+}
+
+.text-primary#inspection-icon {
+  color: #4c566a !important;
+}
+
+.text-primary#photo-video-icon {
+  color: #a3be8c !important;
 }
 
 h1,
@@ -260,7 +268,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (max-width: 768px) {
   header.masthead {
-    background-image: url("../img/aircraft-airplane-art.jpg");
+    background-image: url("../img/Bridge_House.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;

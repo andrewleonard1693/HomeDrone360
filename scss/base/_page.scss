@@ -15,8 +15,14 @@ a {
   }
 }
 
-.text-primary {
-  color: $primary !important;
+.text-primary#real-estate-icon {
+  color: #b48ead !important;
+}
+.text-primary#inspection-icon {
+  color: #4c566a !important;
+}
+.text-primary#photo-video-icon {
+  color: #a3be8c !important;
 }
 
 h1,
@@ -31,6 +37,12 @@ h6 {
 
 .page-section {
   padding: 75px 0;
+  // #real-estate-icon {
+  //   color: #b48ead;
+  // }
+  // .fa-home {
+  //   color: #b48ead !important;
+  // }
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
